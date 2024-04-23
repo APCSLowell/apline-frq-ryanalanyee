@@ -16,6 +16,6 @@ public class APLine
   public boolean isOnLine(int x, int y){
     if((nA * x + nB * y + nC) == 0)
       return true;
-    return fale;
+    return false;
   }
 }
